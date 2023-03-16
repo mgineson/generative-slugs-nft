@@ -50,31 +50,10 @@ CONFIG = [
         'rarity_weights': None,
     },
     {
-        'id': 5,
-        'name': 'clothes',
-        'directory': 'Shirt',
-        'required': False,
-        'rarity_weights': None,
-    },
-    {
-        'id': 6,
-        'name': 'held_item',
-        'directory': 'Misc',
-        'required': True,
-        'rarity_weights': None,
-    },
-    {
         'id': 7,
         'name': 'hands',
         'directory': 'Hands',
         'required': True,
-        'rarity_weights': None,
-    },
-    {
-        'id': 8,
-        'name': 'wristband',
-        'directory': 'Wristband',
-        'required': False,
         'rarity_weights': None,
     },
 ]
