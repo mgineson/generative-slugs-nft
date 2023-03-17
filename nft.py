@@ -154,7 +154,7 @@ def generate_images(edition, count, drop_dup=True):
     op_path = os.path.join('output', 'edition ' + str(edition), 'images')
 
     # Will require this to name final images as 000, 001,...
-    zfill_count = len(str(count - 1))
+    zfill_count = 0
     
     # Create output directory if it doesn't exist
     if not os.path.exists(op_path):
